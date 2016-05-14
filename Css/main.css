@@ -1,0 +1,66 @@
+@import url('http://getbootstrap.com/dist/css/bootstrap.css');
+ html, body, .container-table {
+    height: 100%;
+}
+.container-table {
+    display: table;
+}
+.vertical-center-row {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+body{
+	text-align: center;
+	background-image: url("../img/broncos.jpg");
+}
+
+#top{ color:blue; }
+
+#question0{color:orange;
+font-family: "NFL-RedZone", sans-serif;
+ }
+
+ #question1{color:orange;
+font-family: "NFL-RedZone", sans-serif;
+ }
+
+ #question2{color:orange;
+font-family: "NFL-RedZone", sans-serif;
+ }
+
+ #question3{color:orange;
+font-family: "NFL-RedZone", sans-serif;
+ }
+
+ #question4{color:orange;
+font-family: "NFL-RedZone", sans-serif;
+ }
+
+ #question5{color:orange;
+font-family: "NFL-RedZone", sans-serif;
+ }
+
+ #question6{color:orange;
+font-family: "NFL-RedZone", sans-serif;
+ }
+
+.correct{
+color:blue;
+font-family: "NFL-RedZone", sans-serif;
+}
+
+.incorrect {
+color:orange;
+font-family: "NFL-RedZone", sans-serif;
+}
+
+@font-face {
+  font-family: "NFL-RedZone";
+  src: url("http://www.dafont.com/nfl-redzone.font") format("truetype");
+}
+#top{ font-family: "NFL-RedZone", sans-serif }
+#correct{ font-family: "NFL-RedZone", sans-serif }
+#incorrect { font-family: "NFL-RedZone", sans-serif }
+
+#ques{color:blue;}
